@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+   height:100%;
+   width:100%;
+   background-color:rgb(57, 52, 52);
+}
+section.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:10% 40% 5% 40%;
+    width:300px; 
+}
+#title{
+   display:flex;
+   flex-direction: column;
+   background-color:rgb(52, 52, 232);
+   height:100%;
+   width:100%
+}
+
+#main{
+    padding:15px 0px 3px 15px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    font-size: 23px;
+    font-weight:bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 15px;
+    padding:3px 0px 3px 15px;
+    color:white;
+    text-transform:capitalize;
+}
+.sub{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:15px;
+    flex-direction: row;
+    padding:15px 15px 15px 15px;
+}
+#taskinput{
+    padding:15px 0 15px 15px;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: 10px;
+    border:1px solid white;
+}
+.add1{
+    padding:15px 15px 15px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border:none;
+}
+.add1:hover{
+     background-color:rgba(255,255,255,1.0);
+     border:none;
+}
+nav{
+    width:100%;
+}
+.section2{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap:15px;
+    padding:10px;
+    background-color:white;
+ }
+.button{
+   background-color:rgb(226, 221, 221);
+   padding:5px 10px 5px 10px;
+   border-radius: 10px;
+   cursor:pointer;
+   border:none;
+}
+.button:hover{
+    background-color:rgb(52, 52, 232);
+}
+.section3{
+    gap:15px;
+    padding:10px;
+    background-color:white;
+    width:100%;
+   
+}
+.hey1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font:none;
+    font-family: 'Times New Roman', Times, serif;
+    gap:5px;
+    cursor:pointer;
+    font-size:14px;
+}
+.delete{
+   margin-left:auto;
+    opacity:0;
+}
+.hey1:hover .delete{
+    opacity:1;
+}
+.section4{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    background-color:white;
+    width:100%;
+    padding:10px;
+}
+#reset{
+    margin-left:auto;
+    color:rgb(235, 19, 19);
+    border-color: rgb(52, 52, 232);
+}
+.ne{
+    text-decoration: line-through;
+}
+.col{
+    color: green;
+}
